@@ -188,8 +188,8 @@ int main()
                     if (!InputFieldA.str.empty() && !InputFieldB.str.empty() && !InputFieldC.str.empty()) {
 
                         Gr.a = std::stod(InputFieldA.str);
-                        Gr.b = std::stod(InputFieldA.str);
-                        Gr.c = std::stod(InputFieldA.str);
+                        Gr.b = std::stod(InputFieldB.str);
+                        Gr.c = std::stod(InputFieldC.str);
 
                         Gr.createparabola();
 
